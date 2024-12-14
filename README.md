@@ -1,6 +1,6 @@
 GWL Predictor
 Overview
-The GWL Predictor project is a machine learning model designed to predict the Gross Weight Load (GWL) based on historical data. The model leverages data science techniques, including data preprocessing, feature engineering, and regression algorithms to make accurate predictions.
+The GWL Predictor project is a machine learning model designed to predict the Ground Water Level (GWL) based on historical data. The model leverages data science techniques, including data preprocessing, feature engineering, and regression algorithms to make accurate predictions.
 
 Features
 Data Preprocessing: Handles missing values, outliers, and data normalization to ensure the model’s accuracy.
@@ -17,18 +17,7 @@ matplotlib
 seaborn
 xgboost (if applicable)
 Jupyter Notebook (for exploratory data analysis)
-ou can install all dependencies by running:
 
-
-pip install -r requirements.txt
-Installation
-Clone this repository:
-
-
-git clone https://github.com/yourusername/gwl-predictor.git
-cd gwl-predictor
-Install dependencies:
-pip install -r requirements.txt
 Usage
 1. Data Loading
 Load your dataset into the system:
@@ -58,4 +47,4 @@ Once the model is trained, you can use it to make predictions:
 
 predictions = model.predict(new_data)
 Results
-The project includes performance metrics and visualizations to compare the accuracy of different models. These results can be found in the results directory.
+The project includes performance metrics and visualizations to compare the accuracy of different models.
